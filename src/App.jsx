@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useLocation, Routes, Route } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import CarDetails from './pages/CarDetails';
 import Home from './pages/Home';
