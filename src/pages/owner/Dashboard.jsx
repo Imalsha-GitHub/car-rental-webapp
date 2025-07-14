@@ -74,20 +74,17 @@ const Dashboard = () => {
                 </div>
               </div>
         ))}
-          </div>
-
-
-
- {/* Monthly revenue */}
-
-
-
-
-
+          </div> 
+          
+          {/* monthly revenue */}
+        <div className='p-4 md:p-6 mb-6 border border-borderColor rounded-md w-full md:max-w-xs'>
+          <h1 className='text-lg font-medium'>Monthly Revenue</h1>
+          <p className='text-gray-500'>Revenue for current month</p>
+          <p className='text-3xl mt-6 font-semibold text-primary'>{currency}{data.monthlyRevenue}</p>
+        </div>
 
         </div>
-        {/* monthly revenue */}
-        <div></div>
+       
       </div>
     </div>
   )
